@@ -1,13 +1,33 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: white;
+  color: black;
+  font-size: 1.125em;
+  text-align: justify;
+  line-height: normal;
 }
-
+h1 {
+  font-size: 2em;
+  line-height: 3;
+  text-align: center;
+}
+h3{
+  font-size: 1.250em;
+  line-height: normal;
+  text-align: justify;
+}
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a:link { color:#fff; } /* unvisited */
+a:visited { color:#fff; } /* visited */
+a:hover { color:#07b; } /* mouse over */
+a:active { color:#0fc; } /* selected */
+a {
+	text-decoration: none;
 }
 
 .logo {
@@ -17,10 +37,15 @@ nav {
 
 .large-pic {
   width: 100%;
+
 }
 
 .medium-pic {
   width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
 }
 
 .left, .right {
@@ -40,6 +65,7 @@ ul {
 li {
   float: right;
   padding: 30px;
+
 }
 
 article {
@@ -49,4 +75,17 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+text-align: center;
+}
+.story-text {
+  text-align: justify;
+  padding-top: 20px;
+}
+.author {
+  text-align: justify;
+  line-height: 2;
+}
+p {
+  line-height: 1em;
+  margin-bottom: 1em
 }
